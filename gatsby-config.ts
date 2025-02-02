@@ -1,15 +1,3 @@
-// /**
-//  * @type {import('gatsby').GatsbyConfig}
-//  */
-// module.exports = {
-//   siteMetadata: {
-//     title: `Gatsby + Vercel`,
-//     siteUrl: `https://gatsby-template.vercel.app/`,
-//   },
-//   plugins: [],
-// };
-
-
 import { config } from 'dotenv';
 import path from 'path';
 import type { GatsbyConfig } from 'gatsby';
@@ -22,8 +10,9 @@ config({
 const PROJECT_ROOT = path.resolve(__dirname);
 
 const siteMetadata: GatsbyConfig['siteMetadata'] = {
-  siteUrl: `https://gatsby-template.vercel.app/`,
-  title: 'Gatsby + Vercel',
+  // siteUrl: 'https://www.okna-pasywne.pl/',
+  siteUrl:'https://inter.concierge4u.pl',
+  title: 'Internorm',
   description: `Opis strony`,
   twitterUsername: `@IFTMInternorm`,
   image: `/logo.webp`,
@@ -103,10 +92,9 @@ const plugins: GatsbyConfig['plugins'] = [
   {
     resolve: 'gatsby-plugin-robots-txt',
     options: {
-      // host: 'https://www.okna-pasywne.pl', //TODOO
-      // sitemap: 'https://www.okna-pasywne.pl/sitemap.xml',//TODOO
-      host: 'https://inter.concierge4u.pl', //TODOO
-      sitemap: 'https://inter.concierge4u.pl/sitemap.xml',//TODOO
+      host: 'https://inter.concierge4u.pl',
+      // host: 'https://www.okna-pasywne.pl',
+      sitemap: 'sitemap.xml',
       policy: [{ userAgent: '*', allow: '/' }],
     },
   },

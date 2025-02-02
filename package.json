@@ -1,9 +1,9 @@
 {
   "name": "internorm",
   "private": true,
-  "description": "A new starter for a Internorm",
+  "description": "A starter for a Internorm",
   "version": "0.1.0",
-  "author": "",
+  "author": "Maksymilian Sapa <m.sapa@forbetterfuture.pl>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -15,7 +15,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "formik": "^2.2.9",
     "framer-motion": "^7.5.3",
-    "gatsby": "^5.0.0",
+    "gatsby": "^4.21.1",
     "gatsby-plugin-advanced-sitemap": "^2.1.0",
     "gatsby-plugin-breadcrumb": "^12.3.1",
     "gatsby-plugin-google-tagmanager": "^5.8.0",
@@ -36,8 +36,8 @@
     "html-react-parser": "^3.0.4",
     "nanoid": "^4.0.0",
     "pretty-bytes": "^6.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "react-indiana-drag-scroll": "^2.2.0",
     "react-scroll": "^1.8.8",
